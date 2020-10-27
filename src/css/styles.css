@@ -35,6 +35,10 @@
   font-weight: 700;
 }
 
+.collapsable-plus-sign {
+  cursor: pointer;
+}
+
 .student-info-lower-container {
   padding-left: 15px;
 }

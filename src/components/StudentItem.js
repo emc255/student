@@ -35,7 +35,7 @@ const StudentItem = () => {
 				<div className="student-info-container">
 					<div className="student-info-upper-container">
             <div className="student-name">{student.firstName} {student.lastName}</div>
-            <div className="collapsable-plus-sign" data-value={student.id} onClick={showGrades}>{plusOrMinus}</div>
+            <div className="collapsable-plus-sign expand-btn" data-value={student.id} onClick={showGrades}>{plusOrMinus}</div>
 					</div>
 
 					<div className="student-info-lower-container">

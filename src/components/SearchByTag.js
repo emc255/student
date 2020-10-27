@@ -35,7 +35,7 @@ const SearchByTag = () => {
     <div>
       <div className="ui form">
         <div className="field">
-          <input onChange={(e) => setTerm(e.target.value)} value={term} className="input" placeholder="Search By Tag"/>
+          <input id="tag-input" onChange={(e) => setTerm(e.target.value)} value={term} className="input add-tag-input" placeholder="Search By Tag"/>
         </div>
       </div>
     </div>
